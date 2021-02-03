@@ -3,13 +3,10 @@ toc_priority: 32
 toc_title: Atomic
 ---
 
+# 原子引擎 {#atomic}
+这个引擎支持非阻塞式的`DROP` 和 `RENAME TABLE`和`EXCHANGE TABLES t1 AND t2`的查询。数据库默认引擎就是原子引擎
 
-# Atomic {#atomic}
-
-It is supports non-blocking `DROP` and `RENAME TABLE` queries and atomic `EXCHANGE TABLES t1 AND t2` queries. Atomic database engine is used by default.
-
-## Creating a Database {#creating-a-database}
-
+## 创建一个数据库 {#creating-a-database}
 ```sql
 CREATE DATABASE test ENGINE = Atomic;
 ```
