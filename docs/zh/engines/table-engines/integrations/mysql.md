@@ -4,7 +4,7 @@ MySQL 引擎可以对存储在远程 MySQL 服务器上的数据执行 `SELECT` 
 
 调用格式：
 
-    MySQL('host:port', 'database', 'table', 'user', 'password'[, replace_query, 'on_duplicate_clause']);
+    mysql('host:port', 'database', 'table', 'user', 'password'[, replace_query, 'on_duplicate_clause']);
 
 **调用参数**
 
